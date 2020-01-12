@@ -14,18 +14,32 @@
         "version" : "0.0.1",
         "build" : 1,
         "preview" : true,
-        "previewDescription" : "Technical Preview",
+        "previewType" : "Technical Preview",
         "available" : true,
+        "description" : "Initial Version.",
         "package" : {
-            "href" : "https://jsjtsty.github.io/ISLStudio-Update/cspypp/CSpy++_v0.0.1_x86.zip",
-            "sha256" : ""
+            "href" : "https://jsjtsty.github.io/cspypp/CSpy++_v0.0.1_x86.zip",
+            "sha256" : "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         },
         "package64" : {
-            "href" : "https://jsjtsty.github.io/ISLStudio-Update/cspypp/CSpy++_v0.0.1_x64.zip",
-            "sha256" : ""
+            "href" : "https://jsjtsty.github.io/cspypp/CSpy++_v0.0.1_x64.zip",
+            "sha256" : "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
         }
     },
     "stableVersion" : {
-
+        "version" : "0.0.1",
+        "build" : 1,
+        "preview" : true,
+        "previewType" : "Technical Preview",
+        "available" : true,
+        "description" : "Initial Version.",
+        "package" : {
+            "href" : "https://jsjtsty.github.io/cspypp/CSpy++_v0.0.1_x86.zip",
+            "sha256" : "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        },
+        "package64" : {
+            "href" : "https://jsjtsty.github.io/cspypp/CSpy++_v0.0.1_x64.zip",
+            "sha256" : "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        }
     }
 }
