@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Portfolio Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	 
+  
+  </head>
+	<script type="text/javascript">
+		function checkTime() {
+        	var now = new Date(), _2021 = new Date("2021/1/1 00:00:00");
+			var offset = _2021 - now;
+			var dayDiff = Math.floor(offset / (24 * 3600 * 1000));
+			var leave1 = offset % (24*3600*1000);
+			var hours = Math.floor(leave1/(3600*1000));
+			var leave2 = leave1%(3600*1000);
+			var minutes = Math.floor(leave2/(60*1000));
+			var leave3 = leave2%(60*1000);
+			var seconds = Math.round(leave3/1000);
+			var text = document.getElementById("time_isl");
+			if(text == null) {
+				alert();
+			}
+			text.innerHTML = dayDiff + " 天 " + hours + " 小时 " + minutes + " 分钟 " + seconds + " 秒";
+			setTimeout("checkTime()", 1000);
+		}
+		
+		window.onload = function () {
+	    	checkTime();
+		};
+	</script> 
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><a class="navbar-brand" href="#">唐杉</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"> <a class="nav-link" href="#">Love<span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> </li>
+          <li class="nav-item dropdown">
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+        </form>
+      </div>
+  </nav>
+    <section>
+      <div class="jumbotron text-center mt-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3>2020 TYY 还会喜欢 HLS</h3>
+              <p id="time_isl" style="font-size:70px"></p>
+              <p>&nbsp;</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
